@@ -6,6 +6,9 @@ font-family: 'Quicksand', sans-serif;
     font-family: 'Quicksand', sans-serif;
     font-size: 0.938rem;
 }
+.navbar{
+    background-color: #BBE7FE;
+}
 img{
     inline-size: 30px;
     margin-left: 0;
@@ -16,8 +19,24 @@ ul li{
 }
 a{
     text-decoration: none;
+    color: #000
+}
+section{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.head-label{
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.btn{
+    background-color: #BBE7FE;
+    border-radius: 20px;
     color: #fff;
 }
 footer{
+    background-color: #BBE7FE;
     bottom: 0;
 }
