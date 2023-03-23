@@ -21,20 +21,20 @@
         <nav class="navbar navbar-expand-lg">
             <div class="row container-fluid align-content-center">
                 <div class="col">
-                    <a class="navbar-brand col" href="#"><!--link to homepage-->
+                    <a class="navbar-brand col" href="index.html"><!--link to homepage-->
                         <img src="./images/logo-dark.svg">
                       </a>
                 </div>
                 <div class="col">
                     <ul class="nav d-flex justify-content-end text-light">
                         <li>
-                            <a class="nav-link active" aria-current="page" href="#">
+                            <a class="nav-link active" aria-current="page" href="index.html">
                                 How It Works
                             </a>
                         </li>
                         <!--insert tooltip-->
                         <li>
-                            <a class="nav-link" href="#">
+                            <a class="nav-link" href="./pages/register.html">
                                 <img src="./images/register.svg" height="30px">
                             </a>
                         </li>
@@ -54,68 +54,144 @@
             <div class="card-img-overlay m-5">
                 <h1>Join the Little Bunny Circle</h1>
                 <h2>
-                    Why pay the full-price when you can borrow and swap whenever you want? The sustainable solution for fast growing kids.
+                    Why pay for something expensive when there's a cheaper alternative? The sustainable solution for fast growing kids.
                 </h2>
             </div>
         </section>
     </header>
 
-    <section>
-        <!--hero section-->
-    </section>
-
-    <section>
+    <section class="howitworks col col-10 container-fluid mx-auto text-center">
         <!--how it works-->
         <h3 class="head-label">How It Works</h3>
-        <img src="#" class="img-fluid" alt="#">
+        <p>
+            A membership gives you access to a number brand-new and second-hand curated items from families and brands. Choose something you like and swap them out for something new. 
+        </p>
+        <div class="col col-8 mx-auto">
+            <div class="row row-cols-1 row-cols-md-3 g-3">
+                <div class="col">
+                    <div class="card">
+                        <img src="./images/img-placeholder.svg" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Choose the items you like</h5>
+                            <p class="card-text">
+                                This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="./images/img-placeholder.svg" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Subscribe to a plan</h5>
+                            <p class="card-text">
+                                This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="./images/img-placeholder.svg" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Swap as often as you like</h5>
+                            <p class="card-text">
+                                This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </section>
 
-    <section class="featured container-fluid mx-auto">
+    <section class="featured col col-10 container-fluid mx-auto">
         <!--featured-->
         <h3 class="head-label">Featured Products</h3>
-        <div class="col col-10 mx-auto">
-            <div class="row row-cols-2 row-cols-md-4 g-4">
-                <div class="col">
-                  <div class="card h-100">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <div id="featured" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <div class="featuredcontainer">
+                        <div class="card">
+                            <img src="./images/img-placeholder.svg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">
+                                    Some quick example text to build on the card title and make up the bulk of the card's content.
+                                </p>
+                                <a href="#" class="btn">Go somewhere</a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="./images/img-placeholder.svg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">
+                                    Some quick example text to build on the card title and make up the bulk of the card's content.
+                                </p>
+                                <a href="#" class="btn">Go somewhere</a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="./images/img-placeholder.svg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">
+                                    Some quick example text to build on the card title and make up the bulk of the card's content.
+                                </p>
+                                <a href="#" class="btn">Go somewhere</a>
+                            </div>
+                        </div>
                     </div>
-                  </div>
                 </div>
-                <div class="col">
-                  <div class="card h-100">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">This is a short card.</p>
+                <div class="carousel-item" data-bs-interval="20000">
+                    <div class="featuredcontainer">
+                        <div class="card">
+                            <img src="./images/img-placeholder.svg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">
+                                    Some quick example text to build on the card title and make up the bulk of the card's content.
+                                </p>
+                                <a href="#" class="btn">Go somewhere</a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="./images/img-placeholder.svg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">
+                                    Some quick example text to build on the card title and make up the bulk of the card's content.
+                                </p>
+                                <a href="#" class="btn">Go somewhere</a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="./images/img-placeholder.svg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">
+                                    Some quick example text to build on the card title and make up the bulk of the card's content.
+                                </p>
+                                <a href="#" class="btn">Go somewhere</a>
+                            </div>
+                        </div>
                     </div>
-                  </div>
                 </div>
-                <div class="col">
-                  <div class="card h-100">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card h-100">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-        </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#featured" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#featured" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
     </section>
     
-    <section class="featured col-8 container-fluid mx-auto text-center">
+    <section class="newsletter col-8 container-fluid mx-auto text-center">
         <!--Newsletter Subscription-->
         Keep up to date with our newsletter.
         <form class="row d-flex justify-content-center mx-auto mt-3">
@@ -131,7 +207,7 @@
         </div>
     </section>
 
-    <footer class="container-fluid p-3 p-md-5 pb-0 text-center">
+    <footer class="footer container-fluid p-3 p-md-5 pb-0 text-center">
         <div class="row row-cols-1 row-cols-md-2">
             <div class="col col-md-8">
                 <div class="row row-cols-2 row-cols-md-4">

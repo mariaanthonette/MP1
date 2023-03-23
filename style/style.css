@@ -7,7 +7,7 @@ font-family: 'Poppins', sans-serif;
     font-size: 0.938rem;
 }
 .navbar{
-    background-color: #BBE7FE;
+    background-color: #5E9299;
 }
 img{
     inline-size: 30px;
@@ -27,16 +27,26 @@ section{
 }
 .head-label{
     font-family: 'Josefin Sans', sans-serif;
+    color: #D3B5E5;
     text-align: center;
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
 .btn{
-    background-color: #BBE7FE;
+    background-color: #053B47;
     border-radius: 20px;
     color: #fff;
 }
+.card{
+    margin: 0.5rem;
+    width: calc(100%);
+    border: none;
+    text-align: center;
+}
+.featuredcontainer{
+    display: flex;
+}
 footer{
-    background-color: #BBE7FE;
+    background-color: #5E9299;
     bottom: 0;
 }
