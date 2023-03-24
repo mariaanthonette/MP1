@@ -27,16 +27,24 @@ section{
 }
 .head-label{
     font-family: 'Josefin Sans', sans-serif;
-    color: #D3B5E5;
     text-align: center;
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
 .btn{
-    background-color: #053B47;
+    background-color: #000;
     border-radius: 20px;
     color: #fff;
+    font-weight: bolder;
 }
+
+footer{
+    background-color: #5E9299;
+    bottom: 0;
+    color: #fff;
+}
+
+/*featured products carousel*/
 .card{
     margin: 0.5rem;
     width: calc(100%);
@@ -46,7 +54,20 @@ section{
 .featuredcontainer{
     display: flex;
 }
-footer{
+
+/*community*/
+.community div{
     background-color: #5E9299;
-    bottom: 0;
+    color: #fff;
 }
+
+/*newsletter*/
+.newsletter{
+    background-color: #E8B867;
+}
+
+/*registration page*/
+#verticalrule{
+    max-height: max-content;
+}
+
