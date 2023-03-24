@@ -5,6 +5,7 @@ font-family: 'Poppins', sans-serif;
 *{
     font-family: 'Poppins', sans-serif;
     font-size: 0.938rem;
+    justify-content: center;
 }
 .navbar{
     background-color: #5E9299;
@@ -15,11 +16,14 @@ img{
 }
 ul li{
     list-style-type: none;
+    padding-left: 0;
+    padding: 5px;
     
 }
-a{
+.nav li a, a{
     text-decoration: none;
-    color: #000
+    color: #000;
+    font-weight: bolder;
 }
 section{
     margin-top: 2rem;
@@ -37,13 +41,21 @@ section{
     color: #fff;
     font-weight: bolder;
 }
-
+.btn a{
+    color: #fff;
+    font-weight: bolder;
+}
+/*footer*/
 footer{
     background-color: #5E9299;
     bottom: 0;
     color: #fff;
 }
-
+footer li a{
+    color: #fff;
+    font-weight: normal;
+}
+/*homepage*/
 /*featured products carousel*/
 .card{
     margin: 0.5rem;
@@ -56,18 +68,33 @@ footer{
 }
 
 /*community*/
+.community{
+    background-color: #5E9299;
+}
 .community div{
     background-color: #5E9299;
     color: #fff;
 }
-
 /*newsletter*/
 .newsletter{
     background-color: #E8B867;
 }
 
+
 /*registration page*/
-#verticalrule{
+.verticalrule{
     max-height: max-content;
 }
-
+.easy-reg button{
+    background-color: #fff;
+    border-radius: 20px;
+    font-weight: bolder;
+    border: 2px solid #5E9299;
+}
+.easy-reg button a{
+    color: #5E9299;
+    font-weight: bolder;
+}
+.feedback button{
+    max-width: 100%;
+}
