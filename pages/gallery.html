@@ -52,13 +52,25 @@
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="nav justify-content-end">
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="/index.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle" href="../index.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                               HOME
                             </a>
                             <ul class="dropdown-menu">
-                              <li><a class="dropdown-item" href="#">OUR STORY</a></li>
-                              <li><a class="dropdown-item" href="#">HOW IT WORKS</a></li>
-                              <li><a class="dropdown-item" href="#">BLOG</a></li>
+                                <li>
+                                    <a class="dropdown-item" href="../pages/blog.html#who">
+                                        WHO WE ARE
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="../index.html#howitworks">
+                                        HOW IT WORKS
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="../pages/blog.html#blog">
+                                        BLOG
+                                    </a>
+                                </li>
                             </ul>
                           </li>
                         <li class="nav-item">
@@ -74,25 +86,323 @@
               </div>
             </div>
         </nav>
-
     </header>
 
+    <section class="container-fluid">
+        <div class="row">
+            <div class="col-3">
+                <div class="input-group mb-3 mb-md-5">
+                    <input
+                      type="text"
+                      class="form-control rounded-start-pill"
+                      placeholder="What are you looking for?"
+                      aria-label="What are you looking for?"
+                      aria-describedby="basic-addon"
+                    >
+                    <div class="btn input-group-text" id="basic-addon" type="submit">
+                        <img src="../images/search.svg" class="d-inline d-md-inline">
+                        <p class="d-none d-md-inline">Search</p>
+                    </div>
+                </div>
+                <!--filters-->
+                <div class="accordion accordion-flush" id="filter">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-1" aria-expanded="false" aria-controls="flush-1">
+                                CLOTHING & APPAREL
+                            </button>
+                        </h2>
+                        <div id="flush-1" class="accordion-collapse collapse" data-bs-parent="#filter">
+                            <div class="accordion-body">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-11" aria-expanded="false" aria-controls="flush-11">
+                                            BABY
+                                        </button>
+                                    </h2>
+                                    <div id="flush-11" class="accordion-collapse collapse" data-bs-parent="#filter">
+                                        <div class="accordion-body">
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-12" aria-expanded="false" aria-controls="flush-12">
+                                            TODDLER
+                                        </button>
+                                    </h2>
+                                    <div id="flush-12" class="accordion-collapse collapse" data-bs-parent="#filter">
+                                        <div class="accordion-body">
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-13" aria-expanded="false" aria-controls="flush-13">
+                                            MATERNITY
+                                        </button>
+                                    </h2>
+                                    <div id="flush-13" class="accordion-collapse collapse" data-bs-parent="#filter">
+                                        <div class="accordion-body">
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-2" aria-expanded="false" aria-controls="flush-2">
+                                TOYS
+                            </button>
+                        </h2>
+                        <div id="flush-2" class="accordion-collapse collapse" data-bs-parent="#filter">
+                            <div class="accordion-body">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-21" aria-expanded="false" aria-controls="flush-21">
+                                            BABY
+                                        </button>
+                                    </h2>
+                                    <div id="flush-21" class="accordion-collapse collapse" data-bs-parent="#filter">
+                                        <div class="accordion-body">
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-22" aria-expanded="false" aria-controls="flush-22">
+                                            TODDLER
+                                        </button>
+                                    </h2>
+                                    <div id="flush-22" class="accordion-collapse collapse" data-bs-parent="#filter">
+                                        <div class="accordion-body">
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-3" aria-expanded="false" aria-controls="flush-3">
+                                GADGETS & EQUIPMENTS
+                            </button>
+                        </h2>
+                        <div id="flush-3" class="accordion-collapse collapse" data-bs-parent="#filter">
+                            <div class="accordion-body">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-31" aria-expanded="false" aria-controls="flush-31">
+                                            NURSERY
+                                        </button>
+                                    </h2>
+                                    <div id="flush-31" class="accordion-collapse collapse" data-bs-parent="#filter">
+                                        <div class="accordion-body">
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-32" aria-expanded="false" aria-controls="flush-32">
+                                            OUTDOOR
+                                        </button>
+                                    </h2>
+                                    <div id="flush-32" class="accordion-collapse collapse" data-bs-parent="#filter">
+                                        <div class="accordion-body">
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-33" aria-expanded="false" aria-controls="flush-33">
+                                            OTHERS
+                                        </button>
+                                    </h2>
+                                    <div id="flush-33" class="accordion-collapse collapse" data-bs-parent="#filter">
+                                        <div class="accordion-body">
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-4" aria-expanded="false" aria-controls="flush-4">
+                                FURNITURES
+                            </button>
+                        </h2>
+                        <div id="flush-4" class="accordion-collapse collapse" data-bs-parent="#filter">
+                            <div class="accordion-body">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-21" aria-expanded="false" aria-controls="flush-21">
+                                            BABY
+                                        </button>
+                                    </h2>
+                                    <div id="flush-21" class="accordion-collapse collapse" data-bs-parent="#filter">
+                                        <div class="accordion-body">
+                                            CRIB
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-22" aria-expanded="false" aria-controls="flush-22">
+                                            TODDLER
+                                        </button>
+                                    </h2>
+                                    <div id="flush-22" class="accordion-collapse collapse" data-bs-parent="#filter">
+                                        <div class="accordion-body">
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="row row-cols-2 row-cols-md-5 g-3">
+                    <div class="col">
+                        <div class="card">
+                            <a href="#"><!--redirects to a product detail page-->
+                                <img src="../images/FIT-2-768x768.jpg" class="card-img-top">
+                            </a>
+                            <div class="card-body">
+                                <h6 class="card-title">Item Name</h6>
+                                <p class="card-text">
+                                    PHP XXXX
+                                </p>
+                                <p class="card-text">
+                                    <small class="text-body-secondary">
+                                        BRAND NEW
+                                    </small>
+                                </p>
+                            </div>
+                            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-success">
+                                5
+                                <span class="visually-hidden">stocks available</span>
+                              </span>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <a href="#"><!--redirects to a product detail page-->
+                                <img src="../images/FIT-2-768x768.jpg" class="card-img-top">
+                            </a>
+                            <div class="card-body">
+                                <h6 class="card-title">Item Name</h6>
+                                <p class="card-text">
+                                    PHP XXXX
+                                </p>
+                                <p class="card-text">
+                                    <small class="text-body-secondary">
+                                        BRAND NEW
+                                    </small>
+                                </p>
+                            </div>
+                            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-success">
+                                5
+                                <span class="visually-hidden">stocks available</span>
+                              </span>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <a href="#"><!--redirects to a product detail page-->
+                                <img src="../images/FIT-2-768x768.jpg" class="card-img-top">
+                            </a>
+                            <div class="card-body">
+                                <h6 class="card-title">Item Name</h6>
+                                <p class="card-text">
+                                    PHP XXXX
+                                </p>
+                                <p class="card-text">
+                                    <small class="text-body-secondary">
+                                        BRAND NEW
+                                    </small>
+                                </p>
+                            </div>
+                            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-success">
+                                5
+                                <span class="visually-hidden">stocks available</span>
+                              </span>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <a href="#"><!--redirects to a product detail page-->
+                                <img src="../images/FIT-2-768x768.jpg" class="card-img-top">
+                            </a>
+                            <div class="card-body">
+                                <h6 class="card-title">Item Name</h6>
+                                <p class="card-text">
+                                    PHP XXXX
+                                </p>
+                                <p class="card-text">
+                                    <small class="text-body-secondary">
+                                        BRAND NEW
+                                    </small>
+                                </p>
+                            </div>
+                            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-success">
+                                5
+                                <span class="visually-hidden">stocks available</span>
+                              </span>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <a href="#"><!--redirects to a product detail page-->
+                                <img src="../images/FIT-2-768x768.jpg" class="card-img-top">
+                            </a>
+                            <div class="card-body">
+                                <h6 class="card-title">Item Name</h6>
+                                <p class="card-text">
+                                    PHP XXXX
+                                </p>
+                                <p class="card-text">
+                                    <small class="text-body-secondary">
+                                        BRAND NEW
+                                    </small>
+                                </p>
+                            </div>
+                            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-success">
+                                5
+                                <span class="visually-hidden">stocks available</span>
+                              </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <footer class="footer container-fluid p-3 p-md-5 pb-0 text-center">
+    <footer class="footer container-fluid p-3 p-md-5 pb-0 text-center" id="footer">
         <div class="row row-cols-1 row-cols-md-2">
             <div class="col col-md-8">
                 <div class="row row-cols-2 row-cols-md-4">
-                    <!--fix indentation-->
                     <div class="col">
                         <h4>About Us</h4>
                         <ul>
                             <li>
-                                <a href="#">
-                                    Our Story
+                                <a href="./blog.html#who">
+                                    Who Are We
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a href="./blog.html#blog">
                                     Blog
                                 </a>
                             </li>
@@ -102,23 +412,13 @@
                         <h4>Useful Links</h4>
                         <ul>
                             <li>
-                                <a href="#">
+                                <a href="./size-guide.html">
                                     Sizing Guide
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
-                                    Charity
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
+                                <a href="./register.html#faq">
                                     FAQs
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    Referral
                                 </a>
                             </li>
                         </ul>
@@ -178,56 +478,31 @@
                 <div class="row row-cols-3 row-cols-md-3">
                     <div class="col">
                         <p>Credit Card</p>
-                        <ul class="d-flex justify-content-center">
+                        <ul class="d-flex">
                             <li>
-                                <a href="#">
-                                    <img src="../images/visa.svg" alt="Visa" height="100px">
-                                </a>
+                                <img src="../images/visa.svg" alt="Visa" height="100px">
                             </li>
                             <li>
-                                <a href="#">
-                                    <img src="../images/mastercard.svg" alt="MasterCard" height="100px">
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <img src="../images/amex.svg" alt="American Express" height="100px">
-                                </a>
+                                <img src="../images/mastercard.svg" alt="MasterCard" height="100px">
                             </li>
                         </ul>
                     </div>
                     <div class="col">
                         <p>Online Payments</p>
-                        <ul class="d-flex justify-content-center text-light">
+                        <ul class="d-flex text-light">
                             <li>
-                                <a href="#">
-                                    <img src="../images/paypal.svg" alt="PayPal" height="100px">
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <img src="#" alt="DragonPay" height="100px"> 
-                                </a>
+                                <img src="../images/paypal.svg" alt="PayPal" height="100px">
                             </li>
                         </ul>
                     </div>
                     <div class="col">
                         <p>E-Wallets</p>
-                        <ul class="d-flex justify-content-end text-light">
+                        <ul class="d-flex text-light">
                             <li>
-                                <a href="#">
-                                    <img src="#" alt="GCash" height="100px">
-                                </a>
+                                <img src="../images/gcash.png" alt="GCash" height="100px">
                             </li>
                             <li>
-                                <a href="#">
-                                    <img src="#" alt="Maya" height="100px">
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <img src="#" alt="Grab" height="100px">
-                                </a>
+                                <img src="../images/maya.svg" alt="Maya" height="100px">
                             </li>
                         </ul>
                     </div>

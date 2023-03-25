@@ -98,3 +98,12 @@ footer li a{
 .feedback button{
     max-width: 100%;
 }
+
+/*blog page*/
+#who{
+    box-sizing: border-box;
+    background-color: #E8B867;
+    border-radius: 0px;
+    box-shadow:  20px 20px 60px #d9d9d9,
+                -20px -20px 60px #ffffff;
+}
